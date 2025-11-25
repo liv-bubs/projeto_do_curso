@@ -1,0 +1,5 @@
+rules:
+  - match: "*.dart"
+    actions:
+      - restrict_autocomplete:
+          max_lines: 1
