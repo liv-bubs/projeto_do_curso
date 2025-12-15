@@ -1,12 +1,9 @@
 import 'dart:io';
 
 void main() {
-  int soma = 0;
-  for (int contador = 1; contador <= 5; contador++) {
+  for (int contador = 1; contador <= 10; contador++) {
     print('digite um numero');
     String? numeroLeitura = stdin.readLineSync() as String;
     int numero = int.parse(numeroLeitura);
-    soma += numero;
   }
-  print('a soma dos numeros é $soma');
 }
